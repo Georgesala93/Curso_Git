@@ -9,3 +9,16 @@ Curso de git Platzi
 | show <archivo>  | Muestra todos los cambios sobre el archivo consultado. |
 | diff  | Utilizado para realizar la comparacion de las versiones. |
 |log <archivo> | Muestra los commit realizados al archivo consultado. |
+
+ ## Ejemplos de Ejecución de los comandos
+ >git status
+
+ >git commit
+
+ >git push
+
+ >git show
+
+ >git log
+
+ >git diff
