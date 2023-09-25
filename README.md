@@ -100,26 +100,26 @@ Curso de git Platzi
 | `git grep -n [word]` | Search words in the proyect | Busca la palabra especificada en todo el proyecto |
 
  ## Ejemplos de Ejecución
- >git status
+ >`git status`
 
 ![Status](/img/Comando_status.png)
 
- >git commit
+ >`git commit`
 
 ![commit](/img/Comando_commit.png)
 
- >git push
+ >`git push`
 
 ![push](/img/Comando_push.png)
 
- >git show
+ >`git show`
 
 ![show](/img/Comando_show.png)
 
- >git log
+ >`git log`
 
 ![log](/img/Comando_log.png)
 
- >git diff
+ >`git diff`
 
  ![diff](/img/Comando_diff.png)
