@@ -1,13 +1,14 @@
 # Curso_Git
 Curso de git Platzi
 
-## Command Git / Comandos Git
+### Config Git / Configuracion de Git
 
 | Command | Description | Descripción |
 | ------- | ----------- | ------------ |
 | `git config --global user.name "name-example"` | Add a user name | Añade un nombre de usuario |
 | `git config --global user.email user@example.com` | Add a email for user | Añade un correo del usuario |
 | `git config --list` | List all setings | Muestra todas las configuraciones |
+
 ### Config SSH Keys / Configuracion de Credenciales SSH
 
 | Command | Description | Descripción |
@@ -22,7 +23,11 @@ Curso de git Platzi
 | ------- | ----------- | ------------ |
 | `git init` | Initialize a local Git repository | Inicia un repositorio local de Git |
 | `git clone [url]` | Create a local copy of a remote repository | Crea una copia local de un repositorio remoto |
-| ***Basic Snapshotting - Snapshooting Basico***
+
+### Basic Snapshotting / Snapshooting Basico
+
+| Command | Description | Descripción |
+| ------- | ----------- | ----------- |
 | `git status` | Check status | Verifica el estatus del repositorio |
 | `git add [file-name.txt]` | Add a file to the staging area | Añade un archivo al area de preparación |
 | `git add .` | Add all new and changed files to the staging area | Añade todos los archivos al area de preparación |
@@ -30,9 +35,11 @@ Curso de git Platzi
 | `git commit -am "[commit message]"` |Add changed files and commit | Añande los cambios y hace commit |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) | Elimina archivos o carpetas |
 | `git commit --amend` | Ammend the last commit | Agrega los cambios al ultimo commit en caso de error |
-| |  |  |
-| |***Branching & Merging/ Ramas y fusionar*** |  |
-| |  |  |
+
+### Branching & Merging / Ramas y fusionar
+
+| Command | Description | Descripción |
+| ------- | ----------- | ----------- |
 | `git branch` | List branches (the asterisk denotes the current branch) | Lista todas las ramas |
 | `git branch -a` | List all branches (local and remote) | Lista todas las ramas locales y remotas |
 | `git branch [branch name]` | Create a new branch | Crea una nueva rama |
