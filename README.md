@@ -123,3 +123,7 @@ Curso de git Platzi
  >`git diff`
 
  ![diff](/img/Comando_diff.png)
+
+ >`checkout`
+ 
+ ![checkout](/img/Comando_checkout.png)
