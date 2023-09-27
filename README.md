@@ -99,7 +99,7 @@ What is documented in the repository is from the Git course on the Platzi platfo
 | `git cherry.pick [id]` | Take commit from other branches | Trae un commit especifico desde otra rama |
 | `git grep -n [word]` | Search words in the proyect | Busca la palabra especificada en todo el proyecto |
 
- ## Ejemplos de Ejecución
+ ## Execution examples / Ejemplos de Ejecución
  >`git status`
 
 ![Status](/img/Comando_status.png)
