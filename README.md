@@ -1,5 +1,5 @@
 # Curso_Git
-Curso de git Platzi
+What is documented in the repository is from the Git course on the Platzi platform, I share it so that it is available to everyone.
 
 ### Config Git / Configuracion de Git
 
