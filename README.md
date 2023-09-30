@@ -62,7 +62,7 @@ What is documented in the repository is from the Git course on the Platzi platfo
 | ------- | ----------- | ----------- |
 | `git push origin [branch name]` | Push a branch to your remote repository | Envia el repositorio local a remoto |
 | `git push origin --delete [branch name]` | Delete a remote branch | Elimina un repositorio remoto |
-| `git pull` | Update local repository to the newest commit |
+| `git pull` | Update local repository to the newest commit | Actualizar el repositorio local a la confirmación más reciente |
 | `git pull origin [branch name]` | Pull changes from remote repository | Hace un feth y fusiona
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository | Crea un repositorio remoto |
 | `fork` | Copy a external repository | Copa un repositorio externo |
