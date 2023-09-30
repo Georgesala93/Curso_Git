@@ -124,6 +124,14 @@ What is documented in the repository is from the Git course on the Platzi platfo
 
  ![diff](/img/Comando_diff.png)
 
- >`checkout`
+ >`git checkout`
  
  ![checkout](/img/Comando_checkout.png)
+
+ >`git branch`
+ 
+ ![branch](/img/Comando_branch.png)
+
+ >`git merge`
+ 
+ ![merge](/img/Comando_merge.png)
