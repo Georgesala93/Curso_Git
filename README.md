@@ -132,6 +132,36 @@ What is documented in the repository is from the Git course on the Platzi platfo
  
  ![branch](/img/Comando_branch.png)
 
- >`git merge`
+ >`git merge` : Trae lo que esta en la rama cabecera a la rama main/master
  
  ![merge](/img/Comando_merge.png)
+
+>`git log --all --graph` : Muestra los commit realizados de forma grafica
+ 
+ ![logall1](/img/Comando_log_--all_--graph.png)
+
+>`git log --all --graph --decorate --oneline` : Muestra los commit realizados de forma resumida y grafica
+ 
+ ![logall2](/img/Comando_log_--all_--graph_--decorate_--oneline.png)
+
+>`git alias` : Crea un alias para un comando largo, esto funciona en la terminal de git bash
+ 
+ ![alias](/img/Comando_alias.png)
+
+>`git branch` : Crea ramas en el repositorio locar y en el repositorio remoto
+
+ ![branch](/img/Comando_create_branch_and_send_repositorie.png)
+
+>`git tag` 
+>- `git tag -a <"referencia del tag"> -m <"Mensaje de commit"> <identificador del commit>` : Crear un tag o un release (version) apartir de un commit
+>- `git show-ref --tags` : Muestra los tags creados
+
+ ![tag](/img/Comando_tag_show-ref--tags.png)
+
+>`git pusg origin --tags` : Realiza el envio del tag al repositorio remoto
+
+ ![pusgorigintags](/img/Comando_push_origin_--tags.png)
+
+>`git tag -d <nombre del tag>` : Eliminar un tag del repositorio local y remoto
+
+![tagd](/img/Comando_tag_-d.png)
