@@ -53,8 +53,8 @@ What is documented in the repository is from the Git course on the Platzi platfo
 | `git checkout -- [file-name.txt]` | Discard changes to a file | Descarta los cambios de un archivo |
 | `git merge [branch name]` | Merge a branch into the active branch | Fusiona una rama a la rama activa
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch | Fusiona una rama a una rama determinada |
-| `git stash` | Stash changes in a dirty working directory |
-| `git stash clear` | Remove all stashed entries |
+| `git stash` | Stash changes in a dirty working directory | Guarda los cambios en un directorio de trabajo temporal |
+| `git stash clear` | Remove all stashed entries | Elimina todas las entradas ocultas |
 
 ### Sharing & Updating Projects / Compartiendo y Repositorios Remotos
 
