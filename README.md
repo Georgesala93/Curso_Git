@@ -165,3 +165,7 @@ What is documented in the repository is from the Git course on the Platzi platfo
 >`git tag -d <nombre del tag>` : Eliminar un tag del repositorio local y remoto
 
 ![tagd](/img/Comando_tag_-d.png)
+
+>`git --ammend` : reescribe el commit realizado anteriormente en llegado el caso que allas dado commit y te falto un cambio, realizas el cambio que te falto, despues añades(git add .) los cambios y hay si ejecutas el comando para reescribir el commit.
+
+![tagd](/img/Comando_--amend.png)
