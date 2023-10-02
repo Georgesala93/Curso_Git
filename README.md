@@ -168,4 +168,11 @@ What is documented in the repository is from the Git course on the Platzi platfo
 
 >`git --ammend` : reescribe el commit realizado anteriormente en llegado el caso que allas dado commit y te falto un cambio, realizas el cambio que te falto, despues añades(git add .) los cambios y hay si ejecutas el comando para reescribir el commit.
 
-![tagd](/img/Comando_--amend.png)
+![ammend](/img/Comando_--amend.png)
+
+>`grep` 
+>- `git grep <palabra a buscar>` : Nos saldra un display con la ruta del archivo donde se utiliza la palabra buscada.
+>- `git grep -n <palabra a buscar>` : Nos saldra un display con la ruta del archivo y la linea donde se utiliza la palabra buscada.
+>- `git grep -c <palabra a buscar>` : Nos saldra un display con ruta del archivo donde se utiliza la palabra buscada y la sumatoria de cuantas veces se repite.
+
+![grep](/img/Comando_grep.png)
