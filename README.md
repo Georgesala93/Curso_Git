@@ -98,6 +98,15 @@ What is documented in the repository is from the Git course on the Platzi platfo
 | `gitk` | Open GUI | Abre una interfaz grafica |
 | `git cherry.pick [id]` | Take commit from other branches | Trae un commit especifico desde otra rama |
 | `git grep -n [word]` | Search words in the proyect | Busca la palabra especificada en todo el proyecto |
+| `git shortlog` | Displays the number and description of commits made by each user. | Muestra la cantidad y la descripcon de los commit realizados por cada usuario.
+| `git shortlog -sn` | Shows how many commits each user has made.| Muestra cuantos commit han hecho cada usuario.
+| `git shortlog -sn --all` | Displays how many commits each user has made, up to the deleted ones| Muestra cuantos commit han hecho cada usuario, hasta los eliminados.
+| `git shortlog -sn --all --no-merge` | Displays how many commits each user has made, removing the deleted ones without the merges.| Muestra cuantos commit ha hecho cada usuario, quitando los eliminados sin los merges.
+| `git blame <Nombre archivo>` | Shows who did what line by line.| Muestra quien hizo cada cosa línea por línea.
+| `git <Nombre Comando> --help` | Shows how the command works.| Muestra como funciona el comando.
+| `git blame <Nombre archivo> -L<linea_inicial>,<linea_final>` |  Shows who did what line by line, indicating the range of lines to view. | Muestra quien hizo cada cosa línea por línea, indicándole el rango de las lineas a ver. 
+| `git branch -r` | Show all remote branches.| Muestran todas las ramas remotas.
+| `git branch -a` | Show all branches (local and remote).| Muestran todas las ramas(locales y remotas).
 
  ## Execution examples / Ejemplos de Ejecución
  >`git status`
@@ -168,4 +177,11 @@ What is documented in the repository is from the Git course on the Platzi platfo
 
 >`git --ammend` : reescribe el commit realizado anteriormente en llegado el caso que allas dado commit y te falto un cambio, realizas el cambio que te falto, despues añades(git add .) los cambios y hay si ejecutas el comando para reescribir el commit.
 
-![tagd](/img/Comando_--amend.png)
+![ammend](/img/Comando_--amend.png)
+
+>`grep` 
+>- `git grep <palabra a buscar>` : Nos saldra un display con la ruta del archivo donde se utiliza la palabra buscada.
+>- `git grep -n <palabra a buscar>` : Nos saldra un display con la ruta del archivo y la linea donde se utiliza la palabra buscada.
+>- `git grep -c <palabra a buscar>` : Nos saldra un display con ruta del archivo donde se utiliza la palabra buscada y la sumatoria de cuantas veces se repite.
+
+![grep](/img/Comando_grep.png)
